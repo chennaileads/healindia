@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from html.awaikenthemes.com/healix/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 May 2026 09:12:14 GMT -->
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Awaiken">
+	<!-- Page Title -->
+    <title>Healix - Health Coach HTML Template</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<!-- Google Fonts Css-->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Epilogue:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+	<!-- Bootstrap Css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- SlickNav Css -->
+	<link href="css/slicknav.min.css" rel="stylesheet">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Font Awesome Icon Css-->
+	<link href="css/all.min.css" rel="stylesheet" media="screen">
+	<!-- Animated Css -->
+	<link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Mouse Cursor Css File -->
+	<link rel="stylesheet" href="css/mousecursor.css">
+	<!-- Main Custom Css -->
+	<link href="css/custom.css" rel="stylesheet" media="screen">
+    <style>/* Font Awesome Icon Styling */
+.service-item .icon-box i,
+.our-service-content .icon-box i {
+    font-size: 36px;
+    color: #0077b6;
+    display: block;
+    text-align: center;
+}
+
+/* ROI Highlight Box */
+.roi-highlight {
+    background: #f0f7ff;
+    border-left: 4px solid ;
+    padding: 16px 20px;
+    margin-top: 15px;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.roi-amount {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.roi-label {
+    font-size: 13px;
+    color: #555;
+    font-weight: 400;
+}
+
+/* CTA Box Contact Button */
+.page-cta-box-contact {
+    margin-top: 15px;
+}
+
+.page-cta-box-contact .btn-default {
+    display: inline-block;
+}
+
+/* Icon Box Hover Effect */
+.service-item:hover .icon-box i {
+    color: #fff;
+    transition: all 0.3s ease;
+}</style>
+    <style>
+        .conference-highlight { color: #d4a853; }
+        .tier-table { background: rgba(255,255,255,0.05); border-radius: 15px; padding: 20px; margin-top: 20px; }
+        .event-badge { background: #1a3b47; color: #fff; padding: 5px 15px; border-radius: 30px; font-size: 0.9rem; display: inline-block; margin-bottom: 10px; }
+        .city-card { transition: transform 0.3s ease; }
+        .city-card:hover { transform: translateY(-5px); }
+        
+        /* Country Tags Grid */
+        .country-tags-wrapper { max-width: 1050px; margin: 0 auto; }
+        .country-tags-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+        .country-tag {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 13px 24px; background: #fff; border: 1px solid #e8e8e8;
+            border-radius: 50px; font-size: 15px; font-weight: 500; color: #333;
+            transition: all 0.3s ease; box-shadow: 0 2px 10px rgba(0,0,0,0.04); cursor: default;
+        }
+        .country-tag:hover {
+            background: #f0f7ff; border-color: #0077b6; color: #0077b6;
+            transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,119,182,0.12);
+        }
+        .flag-icon { width: 24px; height: 16px; border-radius: 2px; object-fit: cover; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        
+        @media (max-width: 768px) {
+            .country-tags-grid { gap: 10px; }
+            .country-tag { padding: 10px 18px; font-size: 13px; gap: 8px; }
+            .flag-icon { width: 20px; height: 14px; }
+        }
+        @media (max-width: 480px) {
+            .country-tags-grid { gap: 8px; }
+            .country-tag { padding: 8px 14px; font-size: 12px; gap: 6px; }
+            .flag-icon { width: 18px; height: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Preloader Start -->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+		</div>
+	</div>
+	<!-- Preloader End -->
+
+    <!-- Header Start -->
+	<header class="main-header bg-section">
+		<div class="header-sticky">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<!-- Logo Start -->
+					<a class="navbar-brand" href="index.html">
+						<img src="images/images/logo.png" alt="Logo" style="height: 80px;">
+					</a>
+					<!-- Logo End -->
+
+					<!-- Main Menu Start -->
+					<div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                           <ul class="navbar-nav mr-auto" id="menu">
+
+    <!-- HOME -->
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+
+    <!-- ABOUT -->
+    <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+    </li>
+
+    <!-- EVENTS -->
+    <li class="nav-item ">
+        <a class="nav-link" href="events.html">Events</a>
+       
+    </li>
+
+    <!-- GALLERY -->
+    <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+
+    <!-- CONTACT -->
+    <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+    </li>
+
+    <!-- CTA BUTTON -->
+    <li class="nav-item highlighted-menu">
+        <a class="nav-link" href="contact.html">Book Appointment</a>
+    </li>
+
+</ul>
+                        </div>
+                        
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="contact.html" class="btn-default btn-highlighted">Book Appointment</a>
+                        </div>
+                        <!-- Header Btn End -->
+					</div>
+					<!-- Main Menu End -->
+					<div class="navbar-toggle"></div>
+				</div>
+			</nav>
+			<div class="responsive-menu"></div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <div class="hero hero-bg-image hero-slider-layout bg-section dark-section">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+
+            <!-- SLIDE 1 -->
+            <div class="swiper-slide">
+                <div class="hero-slide slide-1">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-12">
+
+                                <div class="hero-content">
+
+                                    <div class="section-title">
+                                        <h3 class="wow fadeInUp">Heal Indira Global Network</h3>
+
+                                        <h1 class="text-anime-style-3" data-cursor="-opaque">
+                                            Connecting World-Class Hospitals with International Patients
+                                        </h1>
+
+                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                            A trusted medical tourism facilitation platform enabling direct hospital-to-referral connections across 20+ countries with verified healthcare stakeholders.
+                                        </p>
+                                    </div>
+
+                                    <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
+
+                                        <div class="hero-content-btn">
+                                            <a href="about.html" class="btn-default btn-highlighted">
+                                                Explore Network
+                                            </a>
+                                        </div>
+
+                                        <div class="contact-now-box">
+                                            <div class="icon-box">
+                                                <img src="images/icon-phone.svg" alt="">
+                                            </div>
+                                            <div class="contact-now-box-content">
+                                                <p>Global Partnership Desk</p>
+                                                <h3><a href="contact.html">Apply now</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="swiper-slide">
+                <div class="hero-slide slide-2">
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-12">
+
+                                <div class="hero-content">
+
+                                    <div class="section-title">
+                                        <h3 class="wow fadeInUp">Doctor — Patient Connect Program</h3>
+
+                                        <h1 class="text-anime-style-3" data-cursor="-opaque">
+                                            Where Indian Medical Excellence Meets Global Demand
+                                        </h1>
+
+                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                            Pre-scheduled 1:1 meetings, live surgical case discussions, and embassy-level healthcare collaboration between hospitals 
+                                        </p>
+                                    </div>
+
+                                    <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
+
+                                        <div class="hero-content-btn">
+                                            <a href="services.html" class="btn-default btn-highlighted">
+                                                View Event Format
+                                            </a>
+                                        </div>
+
+                                        <div class="contact-now-box">
+                                            <div class="icon-box">
+                                                <img src="images/icon-phone.svg" alt="">
+                                            </div>
+                                            <div class="contact-now-box-content">
+                                                <p>Hospital Registration</p>
+                                                <h3><a href="contact.html">Apply Now</a></h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-pagination"></div>
+    </div>
+</div>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Start -->
+  <div class="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- About Us Image Start -->
+                <div class="about-us-images">
+                    <!-- About Us Image 1 Start -->
+                    <div class="about-us-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="images/images/image-23.jpg" alt="Doctor Patient Connect">
+                        </figure>
+                    </div>                        
+                    <!-- About Us Image 1 End -->
+                    
+                    <!-- About Us Image 2 Start -->
+                    <div class="about-us-img-2">
+                        <figure class="image-anime reveal">
+                            <img src="images/images/image-30.jpg" alt="International Healthcare">
+                        </figure>
+                    </div>
+                    <!-- About Us Image 2 End -->
+
+                    <!-- Experience Counter Box Start -->
+                    <div class="hero-experience-box">
+                        <h2><span class="counter">25</span>+</h2>
+                        <p>Countries Connected</p>
+                    </div>
+                    <!-- Experience Counter Box End -->
+                </div>
+                <!-- About Us Image End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- About Us Content Start -->
+                <div class="about-us-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Doctor — Patient Connect</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Where Indian Excellence Meets the World</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Heal Indira creates a private, trust-first environment where your senior doctors and international patient program teams sit face-to-face with referral agencies, embassy health attachés, and ministry officials. Every conversation is curated. Every introduction is qualified.</p>
+                    </div>
+                    <!-- Section Title End -->
+                    
+                    <!-- About Us Body Start -->
+                    <div class="about-us-body wow fadeInUp" data-wow-delay="0.4s">
+                        <ul>
+                            <li>Pre-scheduled 1:1 doctor introductions with vetted referral partners</li>
+                            <li>Live case discussions and surgical capability presentations</li>
+                            <li>Dedicated translators for Francophone, Arabic and Swahili delegates</li>
+                            <li>Post-event follow-up to convert conversations into referrals</li>
+                        </ul>
+                    </div>
+                    <!-- About Us Body End -->
+                    
+                    <!-- About Us Footer Start -->
+                    <div class="about-us-footer wow fadeInUp" data-wow-delay="0.6s">
+                        <!-- About Us Button Start -->
+                        <div class="about-us-btn">
+                            <a href="register.html" class="btn-default">Register Your Hospital</a>
+                        </div>
+                        <!-- About Us Button End -->
+                        
+                        <!-- About Author Box Start -->
+                        <div class="about-author-box">
+                            <div class="author-image">
+                                <figure class="image-anime">
+                                    <img src="images/trusted-client-img-2.jpg" alt="">
+                                </figure>
+                            </div>
+                            
+                            <div class="author-info">
+                                <h3>Heal Indira</h3>
+                                <p>Trusted Healthcare Partner</p>
+                            </div>
+                        </div>
+                        <!-- About Author Box End -->
+                    </div>
+                    <!-- About Us Footer End -->
+                </div>
+                <!-- About Us Content End -->
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- About Us Section End -->
+    
+    <!-- Our Services Section Start -->
+    <div class="our-services bg-section">
+    <div class="container">
+        <div class="row services-list">
+            <div class="col-lg-4 col-md-6">
+                <div class="our-service-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Why Hospitals Choose Heal Indira</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">ROI-Driven Partnerships</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Gold and Platinum partnerships are structured to recover your investment through guaranteed referrals alone.</p>
+                        <div class="roi-highlight wow fadeInUp" data-wow-delay="0.3s">
+                            <span class="roi-amount">₹7–10L</span>
+                            <span class="roi-label">Average revenue per international patient</span>
+                        </div>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s" style="font-size: 14px; color: #666; margin-top: 10px;">A single converted referral can outpace your full Bronze or Silver investment. Two surgical referrals — guaranteed in Gold — and the math becomes obvious.</p>
+                    </div>
+                    <!-- Section Title End -->  
+
+                    <!-- Our Service Button Start -->
+                    <div class="our-service-button wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="partnerships.html" class="btn-default">Explore Partnerships</a>
+                    </div>
+                    <!-- Our Service Button End -->
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item active wow fadeInUp">
+                    <div class="icon-box">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="service-item-content">
+                        <h3>More Visibility</h3>
+                        <p>Direct presence in front of ministry officials, embassies and global insurers. Showcase your hospital on an international stage.</p>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="icon-box">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="service-item-content">
+                        <h3>More International Patients</h3>
+                        <p>Qualified, pre-vetted referral pipelines that convert into surgical bookings. Real patients, real revenue.</p>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="icon-box">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="service-item-content">
+                        <h3>More Brand Authority</h3>
+                        <p>Magazine features, DailyHunt success stories, and 100+ news portal coverage. Build lasting credibility.</p>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="icon-box">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="service-item-content">
+                        <h3>More Revenue</h3>
+                        <p>Recoup your partnership cost from your first 1–2 inbound surgical patients. Guaranteed ROI that speaks for itself.</p>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+            
+            
+
+            <div class="col-lg-12">
+                <!-- Section Footer Text Start -->
+                <div class="section-footer-text wow fadeInUp" data-wow-delay="1s">
+                    <p><span>Guaranteed</span>ROI from day one. <a href="contact.html">Get your partnership proposal</a></p>
+                </div>
+                <!-- Section Footer Text End -->
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Our Services Section End -->
+
+    <!-- Our Programs Section End -->
+
+    <!-- How It Work Section Start -->
+   <div class="how-it-work bg-section dark-section">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">conference events</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Step-by-step guide to our council circuit</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
+                    <p>Achieving global healthcare partnerships has never been easier. Our closed-door council format provides curated engagement, actionable B2B meetings, and ongoing referral support across June 8–16.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="how-it-work-steps">
+                    <div class="how-work-step-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="images/icon-how-it-work-1.svg" alt="">
+                            <div class="how-work-no"><h3>1</h3></div>
+                        </div>
+                        <div class="how-work-content">
+                            <h3>Day 1: Engagement & Networking</h3>
+                            <p>Welcome, country delegation introductions, keynote on India's Medical Tourism Opportunity. Stage presentations and pre-scheduled 1:1 B2B meetings begin.</p>
+                        </div>
+                    </div>
+                    <div class="how-work-step-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon-box">
+                            <img src="images/icon-how-it-work-2.svg" alt="">
+                            <div class="how-work-no"><h3>2</h3></div>
+                        </div>
+                        <div class="how-work-content">
+                            <h3>Panel Discussions & Gala</h3>
+                            <p>Healthcare professional panel discussions, case study presentations, structured B2B/B2G networking, followed by an evening gala dinner and international delegate award ceremony.</p>
+                        </div>
+                    </div>
+                    <div class="how-work-step-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="icon-box">
+                            <img src="images/icon-how-it-work-3.svg" alt="">
+                            <div class="how-work-no"><h3>3</h3></div>
+                        </div>
+                        <div class="how-work-content">
+                            <h3>Day 2: Deep Engagement</h3>
+                            <p>Platinum partner hospital site tours, bilateral follow-up meetings, and closing press release distribution to 100+ media portals.</p>
+                        </div>
+                    </div>
+                    <div class="how-work-step-item wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="icon-box">
+                            <img src="images/icon-how-it-work-4.svg" alt="">
+                            <div class="how-work-no"><h3>4</h3></div>
+                        </div>
+                        <div class="how-work-content">
+                            <h3>Post-Event Follow-Through</h3>
+                            <p>International webinars with global doctors, tele-camps connecting specialists, guaranteed surgical case referrals, and social media promotion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- How It Work Section End -->
+
+    <!-- Book Appointment Section Start -->
+    <div class="book-appointment">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Book Appointment Box Start -->
+                    <div class="book-appointment-box">
+                        <!-- Book Appointment Content Start -->
+                        <div class="book-appointment-content">
+                            <!-- Section Title Start -->
+                            <div class="section-title">
+                                <h3 class="wow fadeInUp">Appointment</h3>
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">Make appointment</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.2s">Easy scheduling for a personalized health coaching session. Take the first step towards better health today!</p>
+                            </div>
+                            <!-- Section Title End -->
+                            
+                            <!-- Book Appointment Image Start -->
+                            <div class="book-appointment-image">
+                                <figure class="image-anime reveal">
+                                    <img src="images/images/image-3.jpg" alt="">
+                                </figure>
+                            </div>
+                            <!-- Book Appointment Image End -->
+                        </div>
+                        <!-- Book Appointment Content End -->
+
+                        <!-- Book Appointment Form Start -->
+                        <div class="book-appointment-form">
+                            <form id="appointmentForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="row">                                
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Email Address" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    
+                                   
+
+                                 
+
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn-default"><span>Book an appointment</span></button>
+                                        <div id="msgSubmit" class="h3 hidden"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Book Appointment Form End -->
+                    </div>
+                    <!-- Book Appointment Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book Appointment Section End -->
+
+    <!-- Our FAQs Section Start -->
+    <!-- How to Partner & Global Reach Section Start -->
+<div class="our-faqs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- Partner Images Start -->
+                <div class="faq-images">
+                    <!-- Partner Image 1 Start -->
+                    <div class="faq-image-1">
+                        <figure class="image-anime reveal">
+                            <img src="images/images/image-18.jpg" alt="Partnership Meeting">
+                        </figure>
+                    </div>
+                    <!-- Partner Image 1 End -->
+                    
+                    <!-- Partner Image 2 Start -->
+                    <div class="faq-image-2">
+                        <figure class="image-anime reveal">
+                            <img src="images/images/image-16.jpg" alt="Global Network">
+                        </figure>
+                    </div>
+                    <!-- Partner Image 2 End -->
+                </div>
+                <!-- Partner Images End -->
+            </div>
+            
+            <div class="col-lg-6">
+                <!-- Partner Content Start -->
+                <div class="faqs-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">How to Partner</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">5 Steps to Secure Your Slot</h2>
+                    </div>
+                    <!-- Section Title End -->
+
+                    <!-- Partner Steps Accordion Start -->
+                    <div class="faq-accordion" id="partneraccordion">
+                        <!-- Partner Step Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="partnerheading1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#partnercollapse1" aria-expanded="true" aria-controls="partnercollapse1">
+                                    Step 1: Review the Prospectus
+                                </button>
+                            </h2>
+                            <div id="partnercollapse1" class="accordion-collapse collapse" aria-labelledby="partnerheading1" data-bs-parent="#partneraccordion">
+                                <div class="accordion-body">
+                                    <p>Read the Heal Indira Council Partnership Prospectus 2026 to understand the full scope of benefits, delegate profiles, and city schedules available across our engagement circuit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Partner Step Item End -->
+
+                        <!-- Partner Step Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="partnerheading2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#partnercollapse2" aria-expanded="false" aria-controls="partnercollapse2">
+                                    Step 2: Select Your Preferred City & Tier
+                                </button>
+                            </h2>
+                            <div id="partnercollapse2" class="accordion-collapse collapse show" aria-labelledby="partnerheading2" data-bs-parent="#partneraccordion">
+                                <div class="accordion-body">
+                                    <p>Choose your partnership level — Bronze, Silver, Gold, or Platinum — and the city edition you wish to attend. Hospitals may partner in one or multiple cities independently.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Partner Step Item End -->
+
+                        <!-- Partner Step Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="partnerheading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#partnercollapse3" aria-expanded="false" aria-controls="partnercollapse3">
+                                    Step 3: Schedule a Briefing Call
+                                </button>
+                            </h2>
+                            <div id="partnercollapse3" class="accordion-collapse collapse" aria-labelledby="partnerheading3" data-bs-parent="#partneraccordion">
+                                <div class="accordion-body">
+                                    <p>Contact Heal Indira for a dedicated partnership discussion. Our team walks you through delegate matching, presentation guidelines, and expected outcomes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Partner Step Item End -->    
+
+                        <!-- Partner Step Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="partnerheading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#partnercollapse4" aria-expanded="false" aria-controls="partnercollapse4">
+                                    Step 4: Confirm with 75% Advance
+                                </button>
+                            </h2>
+                            <div id="partnercollapse4" class="accordion-collapse collapse" aria-labelledby="partnerheading4" data-bs-parent="#partneraccordion">
+                                <div class="accordion-body">
+                                    <p>Submit your confirmation and 75% advance payment to reserve your slot. Slots are limited — Platinum only 3, Gold 7, Silver 15, Bronze 30 per city.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Partner Step Item End -->
+
+                        <!-- Partner Step Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="partnerheading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#partnercollapse5" aria-expanded="false" aria-controls="partnercollapse5">
+                                    Step 5: Receive Onboarding Kit
+                                </button>
+                            </h2>
+                            <div id="partnercollapse5" class="accordion-collapse collapse" aria-labelledby="partnerheading5" data-bs-parent="#partneraccordion">
+                                <div class="accordion-body">
+                                    <p>Get your onboarding kit, delegate briefing schedule, and presentation guidelines. Your hospital is now ready for curated, high-value B2B engagement.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Partner Step Item End -->
+                    </div>
+                    <!-- Partner Steps Accordion End -->
+                </div>
+                <!-- Partner Content End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- How to Partner & Global Reach Section End -->
+    <!-- Our FAQs Section End -->
+<!-- How to Partner & Global Reach Section Start -->
+
+<div class="our-testimonial service-testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Partnership Tiers</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Select Your Engagement Level</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <!-- Bronze Card -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="padding: 0;">
+                <div style="border: 2px solid #b08d6a; border-radius: 16px; background: rgba(176,141,106,0.06); padding: 28px 20px; height: 100%; transition: all 0.35s ease; cursor: pointer; position: relative; overflow: hidden;"
+                     onmouseover="this.style.background='#b08d6a'; this.style.color='#fff'; this.style.transform='translateY(-8px)'; this.style.boxShadow='0 18px 40px rgba(176,141,106,0.35)';"
+                     onmouseout="this.style.background='rgba(176,141,106,0.06)'; this.style.color=''; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <span style="display: inline-block; background: #b08d6a; color: #fff; padding: 6px 18px; border-radius: 20px;">BRONZE</span>
+                    </div>
+                    <div style="text-align: center; font-size: 2rem; color: #b08d6a; margin-bottom: 12px; transition: color 0.35s ease;">₹1.5L</div>
+                    <p style="text-align: center; margin-bottom: 18px; transition: color 0.35s ease;">30 slots · Entry-level networking</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; transition: color 0.35s ease;">
+                        <li><i class="fa-solid fa-circle-check" style="color: #b08d6a; margin-right: 8px; transition: color 0.35s ease;"></i>Group B2B Delegate Access</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #b08d6a; margin-right: 8px; transition: color 0.35s ease;"></i>Gala Dinner + Award Ceremony</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #b08d6a; margin-right: 8px; transition: color 0.35s ease;"></i>International Networking</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Silver Card -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.35s" style="padding: 0;">
+                <div style="border: 2px solid #a0a8b0; border-radius: 16px; background: rgba(160,168,176,0.06); padding: 28px 20px; height: 100%; transition: all 0.35s ease; cursor: pointer; position: relative; overflow: hidden;"
+                     onmouseover="this.style.background='#a0a8b0'; this.style.color='#fff'; this.style.transform='translateY(-8px)'; this.style.boxShadow='0 18px 40px rgba(160,168,176,0.35)';"
+                     onmouseout="this.style.background='rgba(160,168,176,0.06)'; this.style.color=''; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <span style="display: inline-block; background: #a0a8b0; color: #fff; padding: 6px 18px; border-radius: 20px;">SILVER</span>
+                    </div>
+                    <div style="text-align: center; font-size: 2rem; color: #a0a8b0; margin-bottom: 12px; transition: color 0.35s ease;">₹5L</div>
+                    <p style="text-align: center; margin-bottom: 18px; transition: color 0.35s ease;">15 slots · 10-min presentation</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; transition: color 0.35s ease;">
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>Quarter-page Magazine Article</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>1 International Webinar</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>1 Tele-Camp</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>Group B2B Delegate Access</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>Media PR (100+ Portals)</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>1 Complimentary Pass</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #a0a8b0; margin-right: 8px; transition: color 0.35s ease;"></i>Gala Dinner + Award</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Gold Card -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="padding: 0;">
+                <div style="border: 2px solid #c9a234; border-radius: 16px; background: rgba(201,162,52,0.08); padding: 28px 20px; height: 100%; transition: all 0.35s ease; cursor: pointer; position: relative; overflow: hidden;"
+                     onmouseover="this.style.background='#c9a234'; this.style.color='#fff'; this.style.transform='translateY(-8px)'; this.style.boxShadow='0 18px 40px rgba(201,162,52,0.4)';"
+                     onmouseout="this.style.background='rgba(201,162,52,0.08)'; this.style.color=''; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="position: absolute; top: 10px; right: 10px; background: #c9a234; color: #0a0f14; padding: 3px 10px; border-radius: 16px; text-transform: uppercase;"><i class="fa-solid fa-star"></i> Popular</div>
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <span style="display: inline-block; background: #c9a234; color: #0a0f14; padding: 6px 18px; border-radius: 20px;">GOLD</span>
+                    </div>
+                    <div style="text-align: center; font-size: 2rem; color: #c9a234; margin-bottom: 12px; transition: color 0.35s ease;">₹7L</div>
+                    <p style="text-align: center; margin-bottom: 18px; transition: color 0.35s ease;">7 slots · 15-min presentation, panel</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; transition: color 0.35s ease;">
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>2 Guaranteed Surgical Referrals</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>Half-page Magazine Article</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>2 International Webinars</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>2 Tele-Camps</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>Priority 1:1 B2B Meetings</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>2 Complimentary Passes</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #c9a234; margin-right: 8px; transition: color 0.35s ease;"></i>Gala Dinner + Award</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Platinum Card -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.65s" style="padding: 0;">
+                <div style="border: 2px solid #d4a853; border-radius: 16px; background: rgba(212,168,83,0.12); padding: 28px 20px; height: 100%; transition: all 0.35s ease; cursor: pointer; position: relative; overflow: hidden;"
+                     onmouseover="this.style.background='#d4a853'; this.style.color='#fff'; this.style.transform='translateY(-8px)'; this.style.boxShadow='0 18px 40px rgba(212,168,83,0.45)';"
+                     onmouseout="this.style.background='rgba(212,168,83,0.12)'; this.style.color=''; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                    <div style="position: absolute; top: 10px; right: 10px; background: #d4a853; color: #0a0f14; padding: 3px 10px; border-radius: 16px; text-transform: uppercase;"><i class="fa-solid fa-crown"></i> Best Value</div>
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <span style="display: inline-block; background: #d4a853; color: #0a0f14; padding: 6px 18px; border-radius: 20px;">PLATINUM</span>
+                    </div>
+                    <div style="text-align: center; font-size: 2rem; color: #d4a853; margin-bottom: 12px; transition: color 0.35s ease;">₹14L</div>
+                    <p style="text-align: center; margin-bottom: 18px; transition: color 0.35s ease;">3 slots only · 20-min presentation, site tour</p>
+                    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; transition: color 0.35s ease;">
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>4 Guaranteed Surgical Referrals</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>Full-page Magazine Article</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>3 International Webinars</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>3 Tele-Camps</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>Priority 1:1 B2B Meetings</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>3 Complimentary Passes</li>
+                        <li><i class="fa-solid fa-circle-check" style="color: #d4a853; margin-right: 8px; transition: color 0.35s ease;"></i>Gala Dinner + Award</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="our-testimonial service-testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Our Global Network</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Connecting 20+ Countries Across Continents</h2>
+                </div>
+                <div class="testimonial-info text-center wow fadeInUp" style="max-width:800px; margin:0 auto 30px;">
+                    <p>Building a strong global network that connects patients, healthcare providers, and institutions.</p>
+                </div>
+                <div class="country-tags-wrapper wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="country-tags-grid">
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/lk.png" alt="Sri Lanka" class="flag-icon"> Sri Lanka</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/np.png" alt="Nepal" class="flag-icon"> Nepal</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/mv.png" alt="Maldives" class="flag-icon"> Maldives</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/bd.png" alt="Bangladesh" class="flag-icon"> Bangladesh</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/om.png" alt="Oman" class="flag-icon"> Oman</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/et.png" alt="Ethiopia" class="flag-icon"> Ethiopia</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/bi.png" alt="Burundi" class="flag-icon"> Burundi</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/bw.png" alt="Botswana" class="flag-icon"> Botswana</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/sd.png" alt="Sudan" class="flag-icon"> Sudan</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/mz.png" alt="Mozambique" class="flag-icon"> Mozambique</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/ma.png" alt="Morocco" class="flag-icon"> Morocco</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/na.png" alt="Namibia" class="flag-icon"> Namibia</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/zm.png" alt="Zambia" class="flag-icon"> Zambia</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/kh.png" alt="Cambodia" class="flag-icon"> Cambodia</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/sn.png" alt="Senegal" class="flag-icon"> Senegal</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/tz.png" alt="Tanzania" class="flag-icon"> Tanzania</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/ke.png" alt="Kenya" class="flag-icon"> Kenya</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/mu.png" alt="Mauritius" class="flag-icon"> Mauritius</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/dz.png" alt="Algeria" class="flag-icon"> Algeria</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/ug.png" alt="Uganda" class="flag-icon"> Uganda</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/ng.png" alt="Nigeria" class="flag-icon"> Nigeria</span>
+                        <span class="country-tag"><img src="https://flagcdn.com/w40/un.png" alt="Global" class="flag-icon"> And More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- How to Partner & Global Reach Section End -->
+    <!-- Our Testimonial Section Start-->
+    <div class="our-testimonial bg-section">
+    <div class="container">
+        <div class="row">
+
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-6">
+
+                <div class="testimonial-content">
+
+                    <!-- TITLE -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Global Testimonials</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">
+                            Trusted Outcomes from International Healthcare Partners
+                        </h2>
+                    </div>
+
+                    <!-- TESTIMONIAL LIST -->
+                    <div class="testimonial-boxes">
+
+                        <div class="testimonial-item active wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="testimonial-item-content">
+                                <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="testimonial-info">
+                                    <p>
+                                        “Through Heal Indira, we were able to connect with leading Indian cardiac surgeons and successfully refer complex cases from the Middle East with complete trust and coordination.”
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-author-box">
+                                <div class="testimonial-author-iamge">
+                                    <figure class="image-anime">
+                                        <img src="images/author-1.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="testimonial-author-content">
+                                    <h3>Ministry Health Delegate</h3>
+                                    <p>UAE Medical Board</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="testimonial-item-content">
+                                <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="testimonial-info">
+                                    <p>
+                                        “The structured 1:1 doctor introductions helped us establish direct hospital partnerships in India for oncology and orthopaedic referrals.”
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-author-box">
+                                <div class="testimonial-author-iamge">
+                                    <figure class="image-anime">
+                                        <img src="images/author-2.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="testimonial-author-content">
+                                    <h3>International Referral Partner</h3>
+                                    <p>Medical Tourism Agency</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="testimonial-item-content">
+                                <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="testimonial-info">
+                                    <p>
+                                        “Heal Indira’s curated meetings ensured every discussion was relevant. We secured multiple cross-border patient collaborations within weeks.”
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-author-box">
+                                <div class="testimonial-author-iamge">
+                                    <figure class="image-anime">
+                                        <img src="images/author-3.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="testimonial-author-content">
+                                    <h3>Hospital Director</h3>
+                                    <p>Leading Cardiac Centre, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="testimonial-item-content">
+                                <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="testimonial-info">
+                                    <p>
+                                        “The post-event tele-camps and follow-ups ensured smooth case conversion and continuous engagement with international doctors.”
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial-author-box">
+                                <div class="testimonial-author-iamge">
+                                    <figure class="image-anime">
+                                        <img src="images/author-4.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="testimonial-author-content">
+                                    <h3>Embassy Health Attaché</h3>
+                                    <p>African Region</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT IMAGE SECTION -->
+            <div class="col-lg-6">
+
+                <div class="testimonial-images">
+
+                    <div class="testimonial-img-1">
+                        <figure class="image-anime">
+                            <img src="images/images/image-25.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="testimonial-img-2">
+                        <figure class="image-anime">
+                            <img src="images/images/image-20.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="testimonial-img-3">
+                        <figure class="image-anime">
+                            <img src="images/images/image-3.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <!-- STATS -->
+                    <div class="hero-content-footer client-review-box">
+
+                        <div class="trusted-client-images">
+
+                            <div class="client-image">
+                                <figure class="image-anime reveal">
+                                    <img src="images/trusted-client-img-1.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="client-image">
+                                <figure class="image-anime reveal">
+                                    <img src="images/trusted-client-img-2.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="client-image">
+                                <figure class="image-anime reveal">
+                                    <img src="images/trusted-client-img-3.jpg" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="client-image add-more">
+                                <h3><span class="counter">20</span>+</h3>
+                            </div>
+
+                        </div>
+
+                        <div class="trusted-client-review">
+                            <p>
+                                <span class="counter">5.0</span>
+                                <i class="fa-solid fa-star"></i>
+                                (<span class="counter">100+</span> verified partnerships)
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!-- Our Testimonial Section End-->
+
+    
+    <!-- Main Footer Section Start -->
+  
+    <footer class="main-footer bg-section dark-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="main-footer-box">
+
+                    <!-- ABOUT SECTION -->
+                    <div class="footer-about">
+
+                         <div class="footer-logo">
+                            <h3 class="text-white" style="font: size 16px;">HealIndira</h1>
+                        </div>
+
+
+                        <div class="about-footer-content">
+                            <p>
+                                Heal Indira is a medical tourism facilitation and advocacy platform connecting international patients with India's leading hospitals.
+                            </p>
+                        </div>
+
+                        <!-- CONTACT -->
+                        <div class="footer-contact-list">
+                            <ul>
+                                <li><a href="https://www.google.com/maps?q=Egmore+Chennai+600008" target="_blank"> No. 2/17 (151/G8) Moniteth Road, Egmore, Chennai</a></li>
+                                <li><a href="tel:+919092464157">+91 90924 64157</a></li>
+                                <li><a href="tel:+917200064157">+91 72000 64157</a></li>
+                                <li><a href="mailto:info@healindira.com">info@healindira.com</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- PAGES -->
+                       
+
+                    </div>
+
+                    <!-- LINKS BOX -->
+                    <div class="footer-links-box">
+<div class="footer-links">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- EVENTS -->
+                        <div class="footer-links">
+                            <h3>Events Locations</h3>
+                           <ul>
+    <li><a href="events.html">Mumbai - 8–9 June 2026</a></li>
+    <li><a href="events.html">Hyderabad - 10–11 June 2026</a></li>
+    <li><a href="events.html">Bengaluru - 12–13 June 2026</a></li>
+    <li><a href="events.html">Chennai - 15–16 June 2026</a></li>
+</ul>
+                        </div>
+
+                        <!-- QUICK LINKS -->
+                        
+
+                        <!-- SOCIAL -->
+                        <div class="footer-social-links">
+                            <span>Follow on:</span>
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/healindira/" target="_blank">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/share/1M56pUQNKp/" target="_blank">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="footer-copyright text-center text-white">
+        <div class="container">
+            <p>
+                Copyright © <span id="year"></span> Heal Indira
+                Developed by
+                <a href="https://www.chennaileads.com" target="_blank" style="color:#fff;">
+                    ChennaiLeads.com
+                </a>
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- Dynamic Year -->
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+    <!-- Main Footer Section End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Circle Progress Js File -->
+    <script src="js/circle-progress.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+</body>
+
+<!-- Mirrored from html.awaikenthemes.com/healix/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 May 2026 09:12:39 GMT -->
+</html>
