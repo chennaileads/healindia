@@ -113,12 +113,28 @@
             .country-tag { padding: 8px 14px; font-size: 12px; gap: 6px; }
             .flag-icon { width: 18px; height: 12px; }
         }
+        .hero,
+.hero-slide {
+    height: 100vh; /* full screen height */
+}
+
+@media (max-width: 768px) {
+    .hero,
+    .hero-slide {
+        height: 300px; /* mobile height */
+    }
+}
     </style>
 </head>
 <body>
 
     <!-- Preloader Start -->
-	
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+		</div>
+	</div>
 	<!-- Preloader End -->
 
     <!-- Header Start -->
@@ -187,110 +203,16 @@
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
-    <div class="hero hero-bg-image hero-slider-layout bg-section dark-section">
+   <div class="hero hero-bg-image hero-slider-layout bg-section dark-section">
     <div class="swiper">
         <div class="swiper-wrapper">
 
-            <!-- SLIDE 1 -->
             <div class="swiper-slide">
-                <div class="hero-slide slide-1">
-                    <div class="container">
-                        <div class="row align-items-center">
-
-                            <div class="col-lg-12">
-
-                                <div class="hero-content">
-
-                                    <div class="section-title">
-                                        <h3 class="wow fadeInUp">Heal Indira Global Network</h3>
-
-                                        <h1 class="text-anime-style-3" data-cursor="-opaque">
-                                            Connecting World-Class Hospitals with International Patients
-                                        </h1>
-
-                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                            A trusted medical tourism facilitation platform enabling direct hospital-to-referral connections across 20+ countries with verified healthcare stakeholders.
-                                        </p>
-                                    </div>
-
-                                    <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
-
-                                        <div class="hero-content-btn">
-                                            <a href="about.html" class="btn-default btn-highlighted">
-                                                Explore Network
-                                            </a>
-                                        </div>
-
-                                        <div class="contact-now-box">
-                                            <div class="icon-box">
-                                                <img src="images/icon-phone.svg" alt="">
-                                            </div>
-                                            <div class="contact-now-box-content">
-                                                <p>Global Partnership Desk</p>
-                                                <h3><a href="contact.html">Apply now</a></h3>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                <div class="hero-slide slide-1"></div>
             </div>
 
-            <!-- SLIDE 2 -->
             <div class="swiper-slide">
-                <div class="hero-slide slide-2">
-                    <div class="container">
-                        <div class="row align-items-center">
-
-                            <div class="col-lg-12">
-
-                                <div class="hero-content">
-
-                                    <div class="section-title">
-                                        <h3 class="wow fadeInUp">Doctor — Patient Connect Program</h3>
-
-                                        <h1 class="text-anime-style-3" data-cursor="-opaque">
-                                            Where Indian Medical Excellence Meets Global Demand
-                                        </h1>
-
-                                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                            Pre-scheduled 1:1 meetings, live surgical case discussions, and embassy-level healthcare collaboration between hospitals 
-                                        </p>
-                                    </div>
-
-                                    <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
-
-                                        <div class="hero-content-btn">
-                                            <a href="services.html" class="btn-default btn-highlighted">
-                                                View Event Format
-                                            </a>
-                                        </div>
-
-                                        <div class="contact-now-box">
-                                            <div class="icon-box">
-                                                <img src="images/icon-phone.svg" alt="">
-                                            </div>
-                                            <div class="contact-now-box-content">
-                                                <p>Hospital Registration</p>
-                                                <h3><a href="contact.html">Apply Now</a></h3>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                <div class="hero-slide slide-2"></div>
             </div>
 
         </div>
@@ -697,12 +619,12 @@
                         <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
                             <h2 class="accordion-header" id="partnerheading4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#partnercollapse4" aria-expanded="false" aria-controls="partnercollapse4">
-                                    Step 4: Confirm with 100% Advance
+                                    Step 4: Confirm with 75% Advance
                                 </button>
                             </h2>
                             <div id="partnercollapse4" class="accordion-collapse collapse" aria-labelledby="partnerheading4" data-bs-parent="#partneraccordion">
                                 <div class="accordion-body">
-                                    <p>Submit your confirmation and 100% advance payment to reserve your slot. Slots are limited — Platinum only 3, Gold 7, Silver 15, Bronze 30 per city.</p>
+                                    <p>Submit your confirmation and 75% advance payment to reserve your slot. Slots are limited — Platinum only 3, Gold 7, Silver 15, Bronze 30 per city.</p>
                                 </div>
                             </div>
                         </div>
@@ -1093,7 +1015,7 @@
                     <div class="footer-about">
 
                          <div class="footer-logo">
-                            <h3 class="text-white" style="font: size 16px;">Heal Indira</h1>
+                            <h3 class="text-white" style="font: size 16px;">HealIndira</h1>
                         </div>
 
 
